@@ -7,11 +7,11 @@ fields.forEach((field) => {
         count++;
         if (e.target.classList.contains('active')) {
             if (count % 2 === 0) {
-                e.target.style.backgroundColor = 'red';
+                e.target.style.backgroundColor = 'pink';
                 
             }
             else {
-                e.target.style.backgroundColor = 'yellow';
+                e.target.style.backgroundColor = 'lightblue';
             }
             e.target.classList.remove('active')
         }
