@@ -1,0 +1,23 @@
+*,
+*,::before,
+*,::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    margin: 1rem;
+    padding-top: 3rem;
+    
+}
+td{
+    border: 1px solid black;
+    position: relative;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: linen;
+}
+body{
+    background-color: lightskyblue;
+}
